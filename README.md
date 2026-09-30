@@ -29,6 +29,11 @@ Formación en Riwi | APIs REST | Bases de datos relacionales
 Passion: Código limpio, arquitectura y aprendizaje continuo
 ```
 
+
+<br>
+
+<img src="https://avatars.githubusercontent.com/u/213231866?v=4" width="200" alt="Avatar de Dilant Murillo">
+
 <br>
 
 <div align="center">
@@ -92,6 +97,7 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
 *  Mejorando skills en TypeORM y Sequelize
 *  Enfocado en APIs REST escalables
 ```
+
 
 ---
 
