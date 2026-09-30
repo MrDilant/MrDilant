@@ -38,22 +38,21 @@ PREFERRED_LOGO_ORDER = ("linux", "kubernetes")
 
 YAML_ROWS = [
     (0, "profile", ""),
-    (1, "subject", "Maria Claudia"),
-    (1, "role", "DevOps Engineer"),
-    (1, "origin", "Rosario, Argentina"),
-    (1, "focus", "CI/CD · Cloud Native · IaC"),
-    (1, "status", "Automatizacion · Escalado · Despliegue"),
-    (1, "toolchain", "Terraform · Helm · GitHub Actions"),
+    (1, "subject", "Dilant Murillo"),
+    (1, "role", "Junior Developer"),
+    (1, "origin", "Barranquilla, Colombia"),
+    (1, "focus", "Backend · APIs REST · Node.js"),
+    (1, "status", "Formacion en Riwi · Aprendiendo"),
+    (1, "toolchain", "Git · GitHub · Docker · Postman"),
     (0, "stack", ""),
-    (1, "cloud", "AWS · Azure"),
-    (1, "containers", "Kubernetes · Docker · Helm"),
-    (1, "iac", "Terraform · Ansible"),
-    (1, "observability", "Prometheus · Datadog · Sentry"),
-    (1, "automation", "Python · Bash · JavaScript"),
+    (1, "languages", "JavaScript · TypeScript"),
+    (1, "frameworks", "Express · NestJS"),
+    (1, "databases", "PostgreSQL"),
+    (1, "orm", "TypeORM · Sequelize"),
+    (1, "auth", "JWT · Sessions"),
     (0, "contact", ""),
-    (1, "linkedin", "/in/mcperezes"),
-    (1, "github", "macu-dev"),
-    (1, "timezone", "UTC-3 · Rosario"),
+    (1, "github", "MrDilant"),
+    (1, "timezone", "UTC-5 · Barranquilla"),
 ]
 
 THEMES = {
@@ -202,6 +201,8 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
         prepared = ImageEnhance.Contrast(prepared).enhance(1.35)
         prepared = ImageEnhance.Brightness(prepared).enhance(1.05)
         prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2.0, percent=160, threshold=1))
+        prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2.0, percent=160, threshold=1))
+        prepared = ImageOps.invert(prepared)
         select_lit = True
     else:
         bg = Image.new("RGBA", crop.size, "white")
@@ -338,7 +339,7 @@ def render_svg(
         '<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
         'aria-labelledby="title desc">',
-        "<title id=\"title\">Maria Claudia's live system profile</title>",
+                "<title id=\"title\">Dilant Murillo's live system profile</title>",
         '<desc id="desc">Animated terminal profile with a dithered portrait and '
         "DevOps tool silhouettes.</desc>",
         "<defs>",
@@ -473,7 +474,7 @@ def render_svg(
             f'stroke="{t["chrome"]}"/>',
             f'<text x="1062" y="111" text-anchor="middle" fill="{t["chrome"]}" '
             'font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" '
-            'font-weight="700">@macu-dev</text>',
+            'font-weight="700">@MrDilant</text>',
         ]
     )
 
