@@ -38,7 +38,7 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
 <table border="1" cellpadding="14" bgcolor="#17171c">
   <thead>
     <tr>
-      <th colspan="2" align="left"><code>MrDilant: ## Tecnologías</code></th>
+      <th colspan="2" align="left"><code>MrDilant: Tecnologías</code></th>
     </tr>
   </thead>
   <tbody>
