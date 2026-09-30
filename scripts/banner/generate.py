@@ -34,21 +34,20 @@ HOLD_PARTICLE_COUNT = 2_400
 SEED = 314159
 LOGO_SUFFIXES = {".png", ".webp"}
 LOGO_ALIASES = {"kube": "kubernetes"}
-PREFERRED_LOGO_ORDER = ("linux", "kubernetes")
+PREFERRED_LOGO_ORDER = ("linux")
 
 YAML_ROWS = [
     (0, "profile", ""),
     (1, "subject", "Dilant Murillo"),
     (1, "role", "Junior Developer"),
     (1, "origin", "Barranquilla, Colombia"),
-    (1, "focus", "Backend · APIs REST · Node.js"),
+    (1, "focus", "Backend · APIs "),
     (1, "status", "Formacion en Riwi · Aprendiendo"),
     (1, "toolchain", "Git · GitHub · Docker · Postman"),
     (0, "stack", ""),
     (1, "languages", "JavaScript · TypeScript"),
     (1, "frameworks", "Express · NestJS"),
     (1, "databases", "PostgreSQL"),
-    (1, "orm", "TypeORM · Sequelize"),
     (1, "auth", "JWT · Sessions"),
     (0, "contact", ""),
     (1, "github", "MrDilant"),

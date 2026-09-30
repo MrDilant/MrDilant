@@ -21,7 +21,7 @@
 
 ---
 
-## `$ whoami`
+## Sobre mí
 
 ```
 Junior Developer | Backend Focus | Enthusiast |
@@ -33,7 +33,7 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
 
 <div align="center">
 
-## `$ cat tech-stack.yaml`
+## Tecnologías
 
 <table border="1" cellpadding="14" bgcolor="#17171c">
   <thead>
@@ -84,7 +84,7 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
 
 ---
 
-## `$ git log --oneline`
+## En lo que estoy trabajando
 
 ```
 *  Proyectos en desarrollo
