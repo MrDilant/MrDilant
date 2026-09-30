@@ -24,8 +24,8 @@
 ## `$ whoami`
 
 ```
-Junior Developer | Backend Focus | Node.js Enthusiast
-Formación en Riwi | APIs REST | Bases de datos relacionales
+Junior Developer | Backend Focus | Enthusiast |
+Formación en Riwi | APIs |
 Passion: Código limpio, arquitectura y aprendizaje continuo
 ```
 
@@ -55,11 +55,11 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
     <tr>
       <td valign="top"><code>├─  databases_orm:</code><br><br>
         <img src="https://skillicons.dev/icons?i=postgresql,mongodb" alt="PostgreSQL, MongoDB"><br>
-        <sub><code>PostgreSQL · MongoDB · TypeORM · Sequelize</code></sub>
+        <sub><code>PostgreSQL · TypeORM</code></sub>
       </td>
       <td valign="top"><code>├─  authentication:</code><br><br>
         <img src="https://skillicons.dev/icons?i=jwt" alt="JWT"><br>
-        <sub><code>JWT · Sessions · Express Middleware</code></sub>
+        <sub><code>JWT · Middleware</code></sub>
       </td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
       </td>
       <td valign="top"><code>╰─  apis_patterns:</code><br><br>
         <img src="https://skillicons.dev/icons?i=rest" alt="REST APIs"><br>
-        <sub><code>REST APIs · MVC · Repository Pattern · DTOs</code></sub>
+        <sub><code>REST APIs · Repository Pattern · DTOs</code></sub>
       </td>
     </tr>
   </tbody>
@@ -89,8 +89,7 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
 ```
 *  Proyectos en desarrollo
 *  Aprendiendo arquitecturas backend
-*  Mejorando skills en TypeORM y Sequelize
-*  Enfocado en APIs REST escalables
+*  Mejorando skills en Backend
 ```
 
 
