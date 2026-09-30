@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- LOCAL CITY-POP BANNER -->
-<a href="https://github.com/macu-dev">
+<a href="https://github.com/MrDilant">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.v9.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.v9.svg">
-    <img src="assets/banner-light.v9.svg" width="960" alt="Perfil DevOps de María Claudia">
+    <img src="assets/banner-light.v9.svg" width="960" alt="Perfil DevOps de Dilant Murillo">
   </picture>
 </a>
 
