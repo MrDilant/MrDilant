@@ -97,5 +97,5 @@ Passion: Código limpio, arquitectura y aprendizaje continuo
 ---
 
 <div align="center">
-<sub>Hecho con 💻 y mucho café desde Barranquilla · @MrDilant</sub>
+<sub>Hecho con estrés y mucho café desde Barranquilla · @MrDilant</sub>
 </div>
